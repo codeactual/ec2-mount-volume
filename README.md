@@ -44,6 +44,10 @@ ec2-mount-volume --device-num 2 --force --tag mount-point
 ec2-mount-volume --device-num 2 --force --tag mount-point --timeout 30
 ```
 
+# Setup
+
+The program requires access to the EC2's metadata service and the EC2 instance role requires `ec2:DescribeVolumes` access.
+
 # License
 
 [Mozilla Public License Version 2.0](https://www.mozilla.org/en-US/MPL/2.0/) ([About](https://www.mozilla.org/en-US/MPL/), [FAQ](https://www.mozilla.org/en-US/MPL/2.0/FAQ/))
