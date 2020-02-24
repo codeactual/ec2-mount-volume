@@ -16,11 +16,11 @@ github.com/codeactual/ec2-mount-volume/internal/cage/strings/replace_set.go	sort
 github.com/codeactual/ec2-mount-volume/internal/cage/strings/set.go		Add			0.0%
 github.com/codeactual/ec2-mount-volume/internal/cage/strings/set.go		AddSet			0.0%
 github.com/codeactual/ec2-mount-volume/internal/cage/strings/set.go		AddSlice		0.0%
-github.com/codeactual/ec2-mount-volume/internal/cage/strings/set.go		Clear			0.0%
+github.com/codeactual/ec2-mount-volume/internal/cage/strings/set.go	Clear			0.0%
 github.com/codeactual/ec2-mount-volume/internal/cage/strings/set.go		Contains		0.0%
-github.com/codeactual/ec2-mount-volume/internal/cage/strings/set.go		Copy			0.0%
+github.com/codeactual/ec2-mount-volume/internal/cage/strings/set.go	Copy			0.0%
 github.com/codeactual/ec2-mount-volume/internal/cage/strings/set.go	Diff			0.0%
-github.com/codeactual/ec2-mount-volume/internal/cage/strings/set.go		Equals			0.0%
+github.com/codeactual/ec2-mount-volume/internal/cage/strings/set.go	Equals			0.0%
 github.com/codeactual/ec2-mount-volume/internal/cage/strings/set.go		Len			0.0%
 github.com/codeactual/ec2-mount-volume/internal/cage/strings/set.go		NewSet			0.0%
 github.com/codeactual/ec2-mount-volume/internal/cage/strings/set.go		Remove			0.0%
@@ -35,4 +35,4 @@ github.com/codeactual/ec2-mount-volume/internal/cage/strings/strings.go	StringKe
 github.com/codeactual/ec2-mount-volume/internal/cage/strings/strings.go	truncate		100.0%
 github.com/codeactual/ec2-mount-volume/internal/cage/strings/strings.go	TruncateAppendHint	100.0%
 github.com/codeactual/ec2-mount-volume/internal/cage/strings/strings.go	TruncatePrependHint	100.0%
-67.0%
+60.5%

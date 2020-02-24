@@ -1,4 +1,4 @@
-# ec2-mount-volume [![GoDoc](https://godoc.org/github.com/codeactual/ec2-mount-volume?status.svg)](https://godoc.org/github.com/codeactual/ec2-mount-volume) [![Go Report Card](https://goreportcard.com/badge/github.com/codeactual/ec2-mount-volume)](https://goreportcard.com/report/github.com/codeactual/ec2-mount-volume) [![Build Status](https://travis-ci.org/codeactual/ec2-mount-volume.png)](https://travis-ci.org/codeactual/ec2-mount-volume)
+# ec2-mount-volume [![GoDoc](https://godoc.org/github.com/codeactual/ec2-mount-volume?status.svg)](https://pkg.go.dev/mod/github.com/codeactual/ec2-mount-volume) [![Go Report Card](https://goreportcard.com/badge/github.com/codeactual/ec2-mount-volume)](https://goreportcard.com/report/github.com/codeactual/ec2-mount-volume) [![Build Status](https://travis-ci.org/codeactual/ec2-mount-volume.png)](https://travis-ci.org/codeactual/ec2-mount-volume)
 
 ec2-mount-volume prepares EBS volumes, exposed as NVMe block devices, for immediate use. It mounts each volume at the location specified in a resource tag.
 
@@ -48,8 +48,13 @@ ec2-mount-volume --device-num 2 --force --tag mount-point --timeout 30
 
 The program requires access to the EC2's metadata service and the EC2 instance role requires `ec2:DescribeVolumes` access.
 
-# License
+# Development
+
+## License
 
 [Mozilla Public License Version 2.0](https://www.mozilla.org/en-US/MPL/2.0/) ([About](https://www.mozilla.org/en-US/MPL/), [FAQ](https://www.mozilla.org/en-US/MPL/2.0/FAQ/))
 
-*(Exported from a private monorepo with [transplant](https://github.com/codeactual/transplant).)*
+## Contributing
+
+- Please feel free to submit issues, PRs, questions, and feedback.
+- Although this repository consists of snapshots extracted from a private monorepo using [transplant](https://github.com/codeactual/transplant), PRs are welcome. Standard GitHub workflows are still used.
